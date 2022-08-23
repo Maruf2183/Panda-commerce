@@ -6,43 +6,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panda-Commerce-Bootstrap</title>
     <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="CSS/custom.css">
+    <link rel="stylesheet" href="CSS/custom.css" />
     <!-- Bootstrap StyleSheet -->
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
   </head>
   <body>
-        <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container bg-light ">
-                  <a class="navbar-brand" href="#"><img style="width:164px;height: 30px;" src="images/logo.png" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      
-                      <ul class="navbar-nav"> 
-                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Shoes</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Backpacks</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Subscribe</a></li>
-                    </ul>
-                    
-                    
-                    
-                  </div>
+    <header>
+      <!-- header start -->
+
+      <nav class="navbar navbar-expand-lg">
+        <!-- Navigation start  -->
+        <div class="container bg-light">
+          <a class="navbar-brand" href="#"
+            ><img
+              style="width: 164px; height: 30px"
+              src="images/logo.png"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Shoes</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Backpacks</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navigation end here -->
+
+      <div class="container carousel-container my-5">
+        <!-- Carousel start here  -->
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <!-- carousesl parent tag -->
+          <div class="carousel-inner">
+            <div class="carousel-item active p-5">
+              <!-- carousel item---- (01)-->
+              <div
+                class="w-100 row align-items-center carousel-contents-parent"
+              >
+                <!-- carousel item's content parent container -->
+                <div class="carousel-text col-12 col-md-7">
+                  <h2>Cool Dude Headphone</h2>
+                  <p>
+                    This is the best headphone in the world for people who just
+                    want to waste time in front of funky world.
+                  </p>
+                  <h3>$420</h3>
+                  <button type="button" class="btn btn-info">Buy</button>
                 </div>
-              </nav>
-         
-        </header>
+                <div class="carousel-image col-12 col-md-5">
+                  <img
+                    src="images/banner-images/tv.png"
+                    alt="carousel-image"
+                    class="img-fluid p-3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item p-5">
+              <!-- carousel item--- (02)-->
+              <div
+                class="w-100 row align-items-center carousel-contents-parent"
+              >
+                <!-- carousel item's content parent container -->
+                <div class="carousel-text col-12 col-md-7">
+                  <h2>Cool Dude Headphone</h2>
+                  <p>
+                    This is the best headphone in the world for people who just
+                    want to waste time in front of funky world.
+                  </p>
+                  <h3>$420</h3>
+                  <button type="button" class="btn btn-info">Buy</button>
+                </div>
+                <div class="carousel-image col-12 col-md-5">
+                  <img
+                    src="images/banner-images/xbox.png"
+                    alt="carousel-image"
+                    class="img-fluid p-3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item p-5">
+              <!-- carousel item-- (03)-->
+              <div
+                class="w-100 row align-items-center carousel-contents-parent"
+              >
+                <!-- carousel item's content parent container -->
+                <div class="carousel-text col-12 col-md-7">
+                  <h2>Cool Dude Headphone</h2>
+                  <p>
+                    This is the best headphone in the world for people who just
+                    want to waste time in front of funky world.
+                  </p>
+                  <h3>$420</h3>
+                  <button type="button" class="btn btn-info">Buy</button>
+                </div>
+                <div class="carousel-image col-12 col-md-5">
+                  <img
+                    src="images/banner-images/headphone.png"
+                    alt="carousel-image"
+                    class="img-fluid p-3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
 
-        <!-- Carousel Content -->
-        <main class="container carousel-container" >
-            <h2>Carousel Container</h2>
+    <main>
+      <!-- Main Content start -->
 
-        </main>
-
-
+      <section class="container">
+        <!-- Catagories section start---- -->
+        <div class="catagories-container row g-5">
+          <div class="col-12 col-md-4">
+            <div class="bg-info row align-items-center rounded-3 p-2">
+              <div class="product col-5 col-md-5 col-lg-5">
+                <img
+                  class="img-fluid"
+                  src="images/categories/watch.png"
+                  alt=""
+                />
+              </div>
+              <div class="tittle col-7 col-md-7">
+                <h1>Watch</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="bg-primary row align-items-center rounded-3 p-2">
+              <div class="product col-6 col-md-6 col-lg-5">
+                <img class="img-fluid" src="images/categories/bag.png" alt="" />
+              </div>
+              <div class="tittle col-7 col-md-7">
+                <h1>Backpacks</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="bg-success row align-items-center rounded-3 p-2">
+              <div class="product col-5 col-md-5 col-lg-5">
+                <img
+                  class="img-fluid"
+                  src="images/categories/shoes.png"
+                  alt=""
+                />
+              </div>
+              <div class="tittle col-7 col-md-7">
+                <h1>Shoes</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Catagories section end---- -->
+    </main>
+    <!-- Main Content end -->
 
     <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Script  -->
   </body>
 </html>
