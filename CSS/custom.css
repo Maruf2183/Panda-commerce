@@ -1,8 +1,13 @@
-.carousel-container{
+.carousel-inner{
     background-color: #fceae8;
 }
-
-
-.boder{
-    border: 1px solid red;
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+  }
+#subscribe{
+ height: 300px;
+}
+footer{
+    text-align: center;
 }
